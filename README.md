@@ -50,11 +50,4 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-
-
-
-
-
- [TPD5R] <https://github.com/wedel/TorHS_SpeedDating/tree/master/torperf/data/5Hops_rendezvous>
+This project is licensed under the GNU GENERAL PUBLIC LICENSE, see [LICENSE.md](LICENSE.md) file for details.
