@@ -18,10 +18,10 @@ After you processed your local copys of the Tor consensuses and descriptors into
 with the following *additional* args:
 
 **Path Algorithm**:
-* `hs_tor`
-* `hs_short_tor`
-* `hs_tor_honeypot`
-* `hs_short_tor_honeypot`
+* `hs_tor` uses vanilla Tor path selection if connecting to an hidden services
+* `hs_short_tor`uses performance-enhanced Tor path selection if connecting to an hidden service
+* `hs_tor_honeypot`uses vanilla Tor path selection if connecting to an honeypot
+* `hs_short_tor_honeypot` uses performance-enhanced Tor path selection if connecting to an honeypot
 
 **User model**:
 * `hs_only_simple` connetcts to a hidden service every minute.
