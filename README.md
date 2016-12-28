@@ -1,6 +1,6 @@
 # Speed Dating: A Performance-Enhanced Rendezvous Circuit for Tor
 This is derived from my diploma theses on Tor Rendezvous Circuits and fragmented in the following directories:
- - TorPS/ contains Python Code as an expansion to the original *[The Tor Path Simulator (TorPS)](https://torps.github.io/)* for Hidden Services.
+ - TorPS_HS/ contains Python Code as an expansion to the original *[The Tor Path Simulator (TorPS)](https://torps.github.io/)* for Hidden Services.
  - TorPerf/ contains R Code to anlyse modified rendezvous Circuits regarding their performance.
  - TorPerf/data/ contains aggregated data for a) a rough compairison between various circuitlength in [TorPerf/data/circuitlength](https://github.com/wedel/TorHS_SpeedDating/tree/master/torperf/data/circuitlength) and b) by a more realistic comparison of vanilla rendezvous circuits and a one-hop shorted circuit in [TorPerf/data/5Hops_rendezvous](https://github.com/wedel/TorHS_SpeedDating/tree/master/torperf/data/5Hops_rendezvous).
  
@@ -15,6 +15,7 @@ TorPS is required to get the code running. For all geneal instructions please re
 ### Path Simulation HOWTO
 After you processed your local copys of the Tor consensuses and descriptors into a more compact format you are ready for simulation of Tor (rendezvous) circuits. Running simulations over a given periode works just as before and described in the [TorPS readme](https://github.com/torps/torps/blob/master/README.md) by calling
 <pre><code>python pathsim.py simulate [args] </pre></code>
+with the following *additional* args:
 
 **Path Algorithm**:
 * `hs_tor`
@@ -35,7 +36,6 @@ After you processed your local copys of the Tor consensuses and descriptors into
 * `adv_middle_cons_bw`
 
 ### Example
-
 <pre><code> python pathsim.py simulate --nsf_dir out/network-state/ns-2014-02--2014-12--num_samples 2000 --user_model hs_only_simple=1800 --format relay-adv --adv_guard_cons_bw 679462  --adv_exit_cons_bw 0 --adv_time 0 --num_adv_guards 1 --num_adv_exits 0 --num_adv_middles 1 --adv_middle_cons_bw 0  --loglevel INFO hs_short_tor</pre></code>
      
 ### Version
