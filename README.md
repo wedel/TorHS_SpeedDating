@@ -28,12 +28,8 @@ with the following *additional* args:
 * `hs_simple`connects alternately to  a hidden service and google.com
 
 **Adversery Relays**:
-* `num_adv_guards`
-* `num_adv_exits`
-* `num_adv_middles`
-* `adv_guard_cons_bw`
-* `adv_exit_cons_bw`
-* `adv_middle_cons_bw`
+* The number of adversary guard, middle and exit relays are set in `num_adv_guards`,`num_adv_middles`and `num_adv_exits`
+* The ammount of consensus bandwidth of adversary guard, middle and exit relays are set in`adv_guard_cons_bw`, `adv_exit_cons_bw` and `adv_middle_cons_bw`. The consensus bandwidth will be splitted by the number of the adversary relay for each circuit position.
 
 ### Example
 <pre><code> python pathsim.py simulate --nsf_dir out/network-state/ns-2014-02--2014-12--num_samples 2000 --user_model hs_only_simple=1800 --format relay-adv --adv_guard_cons_bw 679462  --adv_exit_cons_bw 0 --adv_time 0 --num_adv_guards 1 --num_adv_exits 0 --num_adv_middles 1 --adv_middle_cons_bw 0  --loglevel INFO hs_short_tor</pre></code>
