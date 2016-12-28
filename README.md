@@ -31,6 +31,8 @@ with the following *additional* args:
 
 ### Example
 <pre><code> python pathsim.py simulate --nsf_dir out/network-state/ns-2014-02--2014-12--num_samples 2000 --user_model hs_only_simple=1800 --format relay-adv --adv_guard_cons_bw 679462  --adv_exit_cons_bw 0 --adv_time 0 --num_adv_guards 1 --num_adv_exits 0 --num_adv_middles 1 --adv_middle_cons_bw 0  --loglevel INFO hs_short_tor</pre></code>
+ 
+ [vanilla_vs_short_sim.sh](https://github.com/wedel/TorHS_SpeedDating/blob/master/torps_hs/vanilla_vs_short_sim.sh) is an example for paralalizing simulations with a high ammount of samples needed. 
      
 ### Version
 We based our implementation on Tor version 0.2.6.9. Please notice that the original TorPS was moddeled from Tor stable release 0.2.4.23.
