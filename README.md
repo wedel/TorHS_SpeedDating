@@ -1,9 +1,10 @@
 # Speed Dating: A Performance-Enhanced Rendezvous Circuit for Tor
-This is derived from my diploma theses on Tor Rendezvous Circuits.
- 
- - **TorPS** contains Python Code as an expansion to the original **[The Tor Path Simulator (TorPS)](https://torps.github.io/)** for Hidden Services.
- - **TorPerf** contains PythonCode to anlyse modified rendezvous Circuits regarding their performance.
- - **TorPerf/data** contains aggregated data for a) a rough compairison between various circuitlength in [TorPerf/data/circuitlength](https://github.com/wedel/TorHS_SpeedDating/tree/master/torperf/data/circuitlength) and b) by a more realistic comparison of vanilla rendezvous circuits and a one-hop shorted circuit in [TorPerf/data/5Hops_rendezvous](https://github.com/wedel/TorHS_SpeedDating/tree/master/torperf/data/5Hops_rendezvous).
+This is derived from my diploma theses on Tor Rendezvous Circuits. 
+
+The Project is fragmented in the following directories:
+ - TorPS/ contains Python Code as an expansion to the original *[The Tor Path Simulator (TorPS)](https://torps.github.io/)* for Hidden Services.
+ - TorPerf/ contains PythonCode to anlyse modified rendezvous Circuits regarding their performance.
+ - TorPerf/data/ contains aggregated data for a) a rough compairison between various circuitlength in [TorPerf/data/circuitlength](https://github.com/wedel/TorHS_SpeedDating/tree/master/torperf/data/circuitlength) and b) by a more realistic comparison of vanilla rendezvous circuits and a one-hop shorted circuit in [TorPerf/data/5Hops_rendezvous](https://github.com/wedel/TorHS_SpeedDating/tree/master/torperf/data/5Hops_rendezvous).
  
 
 ## Getting Started
