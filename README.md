@@ -7,9 +7,14 @@ The Project is fragmented in the following directories:
  - TorPerf/data/ contains aggregated data for a) a rough compairison between various circuitlength in [TorPerf/data/circuitlength](https://github.com/wedel/TorHS_SpeedDating/tree/master/torperf/data/circuitlength) and b) by a more realistic comparison of vanilla rendezvous circuits and a one-hop shorted circuit in [TorPerf/data/5Hops_rendezvous](https://github.com/wedel/TorHS_SpeedDating/tree/master/torperf/data/5Hops_rendezvous).
  
 
-## Getting Started
+## TorPS with Rendezvous Ciruits
+TorPS is required to get the code running. 
+0. [Stem](https://stem.torproject.org/) is required fot TorPS simulations. 
+1. `git clone https://github.com/torps/torps.git`
+2. Copy all files from [TorPS/](https://github.com/wedel/TorHS_SpeedDating/tree/master/torps) dir of this repo to your local copy of TorPS.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Path Simulation HOWTO
 
 ### Prerequisites
 
