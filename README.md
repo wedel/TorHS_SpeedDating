@@ -10,14 +10,8 @@ The Project is fragmented in the following directories:
 ## TorPS with Rendezvous Ciruits
 TorPS is required to get the code running. 
 
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
 0. [Stem](https://stem.torproject.org/) is required fot TorPS simulations. 
-1. `git clone https://github.com/torps/torps.git`
+1. Get a local copy of TorPS `git clone https://github.com/torps/torps.git`
 2. Copy all files from [TorPS/](https://github.com/wedel/TorHS_SpeedDating/tree/master/torps) dir of this repo to your local copy of TorPS.
 
 
