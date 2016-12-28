@@ -8,45 +8,14 @@ The Project is fragmented in the following directories:
  
 
 ## TorPS with Rendezvous Ciruits
-TorPS is required to get the code running. 
+TorPS is required to get the code running. For all geneal instructions please reffer to their [Readme](https://github.com/torps/torps/blob/master/README.md)
 
 0. [Stem](https://stem.torproject.org/) is required fot TorPS simulations. 
 1. Get a local copy of TorPS `git clone https://github.com/torps/torps.git`
 2. Copy all files from [TorPS/](https://github.com/wedel/TorHS_SpeedDating/tree/master/torps) dir of this repo to your local copy of TorPS.
 
-
 ### Path Simulation HOWTO
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-bAnd repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-
-## Built With
-
-
+After you processed your local copys of the Tor consensuses and descriptors into a more compact format you are ready for simulation of Tor (rendezvous) circuits.
 
 ## License
 
