@@ -2,7 +2,7 @@
 This is derived from my diploma theses on Tor Rendezvous Circuits.
  
  - TorPerf contains Files to anlyse modified rendezvous Circuits regarding their performance.
- - TorPerf/data contains aggregated data for a) a rough compairison between various circuitlength in [TorPerf/data/circuitlength] and b) by a more realistic comparison of vanilla rendezvous circuits and a one-hop shorted circuit in [TorPerf/data/5Hops_rendezvous](https://github.com/wedel/TorHS_SpeedDating/tree/master/torperf/data/5Hops_rendezvous).
+ -- TorPerf/data contains aggregated data for a) a rough compairison between various circuitlength in [TorPerf/data/circuitlength] and b) by a more realistic comparison of vanilla rendezvous circuits and a one-hop shorted circuit in [TorPerf/data/5Hops_rendezvous](https://github.com/wedel/TorHS_SpeedDating/tree/master/torperf/data/5Hops_rendezvous).
 
 ## Getting Started
 
