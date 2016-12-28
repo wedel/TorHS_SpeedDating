@@ -32,7 +32,7 @@ with the following *additional* args:
 #### Example
 <pre><code> python pathsim.py simulate --nsf_dir out/network-state/ns-2014-02--2014-12--num_samples 2000 --user_model hs_only_simple=1800 --format relay-adv --adv_guard_cons_bw 679462  --adv_exit_cons_bw 0 --adv_time 0 --num_adv_guards 1 --num_adv_exits 0 --num_adv_middles 1 --adv_middle_cons_bw 0  --loglevel INFO hs_short_tor</pre></code>
  
-The shellscript [vanilla_vs_short_sim.sh](https://github.com/wedel/TorHS_SpeedDating/blob/master/torps_hs/vanilla_vs_short_sim.sh) is an example for parallelize simulations with a high ammount of samples needed.
+The shellscript [vanilla_vs_short_sim.sh](https://github.com/wedel/TorHS_SpeedDating/blob/master/torps_hs/vanilla_vs_short_sim.sh) is an example of parallelized simulations with a high ammount of samples.
 
 ### Optimal Adversary
 To get closer towards an realistic adversary behavior, we calculated the optimal bandwidth distribution by analyzing different szenarios. [bw_allocation_analyze.sh](https://github.com/wedel/TorHS_SpeedDating/blob/master/torps_hs/bw_allocation_analyze.sh) simulates adversarys with various bandwidth distributions between guard- and middle-relays (exit-relays doesn't need to be cosidered for rendezvous circuits, because they are not used). 
@@ -41,5 +41,4 @@ To get closer towards an realistic adversary behavior, we calculated the optimal
 We based our implementation on Tor version 0.2.6.9. Please notice that the original TorPS was moddeled from Tor stable release 0.2.4.23.
 
 ## License
-
 This project is licensed under the GNU GENERAL PUBLIC LICENSE, see [LICENSE](LICENSE) file for details.
