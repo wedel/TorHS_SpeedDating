@@ -25,7 +25,7 @@ with the following *additional* args:
 * `hs_only_simple` connetcts to a hidden service every minute.
 * `hs_simple` connects to a hidden service and google.com alternately every minute. 
 
-**Adversery Relays**:
+**Adversary Relays**:
 * The number of adversary guard, middle and exit relays are set in `num_adv_guards`,`num_adv_middles`and `num_adv_exits`
 * The ammount of consensus bandwidth of adversary guard, middle and exit relays are set in`adv_guard_cons_bw`, `adv_exit_cons_bw` and `adv_middle_cons_bw`. The consensus bandwidth will be splitted by the number of the adversary relay for each circuit position.
 
