@@ -10,16 +10,20 @@ TorPS is required to get the code running. For all geneal instructions please re
 
 0. [Stem](https://stem.torproject.org/) is required fot TorPS simulations. 
 1. Get a local copy of TorPS `git clone https://github.com/torps/torps.git`
-2. Copy all files from [TorPS/](https://github.com/wedel/TorHS_SpeedDating/tree/master/torps) dir of this repo to your local copy of TorPS.
+2. Copy all files from [TorPS/](https://github.com/wedel/TorHS_SpeedDating/tree/master/torps) dir of this repo to your local copy of TorPS, overwrite pathsim.py. 
 
 ### Path Simulation HOWTO
 After you processed your local copys of the Tor consensuses and descriptors into a more compact format you are ready for simulation of Tor (rendezvous) circuits. Running simulations over a given periode works just as before and described in the [TorPS Readme](https://github.com/torps/torps/blob/master/README.md) by calling
 <pre><code>python pathsim.py simulate [args] </pre></code>
 
 
+
 ### Example
- <pre><code>python pathsim.py simulate --nsf_dir out/network-state/ns-2014-02--2014-12--num_samples 2000 --user_model hs_only_simple=1800 --format relay-adv --adv_guard_cons_bw 679462  --adv_exit_cons_bw 0 --adv_time 0 --num_adv_guards 1 --num_adv_exits 0 --num_adv_middles 1 --adv_middle_cons_bw 0  --loglevel INFO hs_short_tor
-     </pre></code>  
+
+<pre><code> python pathsim.py simulate --nsf_dir out/network-state/ns-2014-02--2014-12--num_samples 2000 --user_model hs_only_simple=1800 --format relay-adv --adv_guard_cons_bw 679462  --adv_exit_cons_bw 0 --adv_time 0 --num_adv_guards 1 --num_adv_exits 0 --num_adv_middles 1 --adv_middle_cons_bw 0  --loglevel INFO hs_short_tor</pre></code>
+     
+### Version
+We based our implementation on Tor version 0.2.6.9. Please notice, that the original TorPS was moddeled from Tor stable release 0.2.4.23.
 
 ## License
 
