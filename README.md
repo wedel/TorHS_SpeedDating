@@ -6,17 +6,20 @@ This is derived from my diploma theses on Tor Rendezvous Circuits and fragmented
  
 
 ## TorPS with Rendezvous Ciruits
-TorPS is required to get the code running. For all geneal instructions please reffer to their [Readme](https://github.com/torps/torps/blob/master/README.md)
+TorPS is required to get the code running. For all geneal instructions please refer to their [Readme](https://github.com/torps/torps/blob/master/README.md)
 
 0. [Stem](https://stem.torproject.org/) is required fot TorPS simulations. 
 1. Get a local copy of TorPS `git clone https://github.com/torps/torps.git`
-2. Copy all files from [TorPS/](https://github.com/wedel/TorHS_SpeedDating/tree/master/torps) dir of this repo to your local copy of TorPS, overwrite pathsim.py. 
+2. Copy all files from [TorPS/](https://github.com/wedel/TorHS_SpeedDating/tree/master/torps) dir of this repo to your local copy of TorPS.
 
 ### Path Simulation HOWTO
 After you processed your local copys of the Tor consensuses and descriptors into a more compact format you are ready for simulation of Tor (rendezvous) circuits. Running simulations over a given periode works just as before and described in the [TorPS Readme](https://github.com/torps/torps/blob/master/README.md) by calling
 <pre><code>python pathsim.py simulate [args] </pre></code>
 
-
+* `hs_tor`
+* `hs_short_tor`
+* `hs_tor_honeypot`
+* `hs_short_tor_honeypot`
 
 ### Example
 
