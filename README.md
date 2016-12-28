@@ -24,8 +24,8 @@ with the following *additional* args:
 * `hs_short_tor_honeypot`
 
 **User model**:
-* `hs_only_simple` connetcts to a hidden service every minute
-* `hs_simple`connects alternately to  a hidden service and google.com
+* `hs_only_simple` connetcts to a hidden service every minute.
+* `hs_simple` connects to a hidden service and google.com alternately every minute. 
 
 **Adversery Relays**:
 * The number of adversary guard, middle and exit relays are set in `num_adv_guards`,`num_adv_middles`and `num_adv_exits`
