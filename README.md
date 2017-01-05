@@ -2,10 +2,10 @@
 As part of my diploma thesis on Tor rendezvous circuits, I developed a number of simulation and evaluation scripts and conducted live experiments.
 Here, I make the code and the data sets publicly available:
 
- - `torps_hs/` contains Python code that extends the *[Tor Path Simulator (TorPS)](https://torps.github.io/)* to simulate rendezvous circuits.
- - `torperf/` contains R code to analyze modified rendezvous circuits regarding their performance.
- - `torperf/data/circuitlength` contains aggregated data briefly comparing various circuit lengths
- - `torperf/data/5Hops_rendezvous` contains aggregated data comparing vanilla rendezvous circuits with five-hop rendezvous circuits.
+ * `torps_hs/` contains Python code that extends the *[Tor Path Simulator (TorPS)](https://torps.github.io/)* to simulate rendezvous circuits.
+ * `torperf/` contains R code to analyze modified rendezvous circuits regarding their performance.
+   * `torperf/data/circuitlength` contains aggregated data briefly comparing various circuit lengths
+   * `torperf/data/5Hops_rendezvous` contains aggregated data comparing vanilla rendezvous circuits with five-hop rendezvous circuits.
 
 
 ## Simulating Rendezvous Circuits with TorPS
